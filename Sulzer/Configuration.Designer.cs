@@ -24,8 +24,15 @@
         /// </summary>
         private void InitializeComponent() {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_modify = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.btn_save = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -57,8 +64,15 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btn_modify);
+            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.btn_save);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label2);
@@ -71,39 +85,96 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "配置Configuration";
             // 
-            // button2
+            // btn_modify
             // 
-            this.button2.Location = new System.Drawing.Point(348, 382);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 50);
-            this.button2.TabIndex = 40;
-            this.button2.Text = "保存 Save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_modify.Location = new System.Drawing.Point(286, 401);
+            this.btn_modify.Name = "btn_modify";
+            this.btn_modify.Size = new System.Drawing.Size(110, 50);
+            this.btn_modify.TabIndex = 49;
+            this.btn_modify.Text = "修改 Save";
+            this.btn_modify.UseVisualStyleBackColor = true;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(243, 294);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(270, 86);
+            this.textBox8.TabIndex = 47;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(33, 300);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(145, 20);
+            this.label8.TabIndex = 46;
+            this.label8.Text = "描述 Description ：";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(243, 167);
-            this.textBox4.Multiline = true;
+            this.textBox4.Location = new System.Drawing.Point(243, 262);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(270, 170);
-            this.textBox4.TabIndex = 26;
-            this.textBox4.Text = "192.168.2.100:port1,port2,port10\r\n192.168.2.101:port1\r\n192.168.2.103:port1,port2," +
-    "port10\r\n192.168.2.106:port1";
+            this.textBox4.Size = new System.Drawing.Size(270, 26);
+            this.textBox4.TabIndex = 45;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(33, 268);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(90, 20);
+            this.label7.TabIndex = 44;
+            this.label7.Text = "端口 Port：";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(243, 230);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(270, 26);
+            this.textBox3.TabIndex = 43;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 236);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(95, 20);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "IO-Link IP：";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(243, 196);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(270, 28);
+            this.comboBox2.TabIndex = 41;
+            // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(402, 401);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(110, 50);
+            this.btn_save.TabIndex = 40;
+            this.btn_save.Text = "保存 Save";
+            this.btn_save.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(33, 177);
+            this.label9.Location = new System.Drawing.Point(33, 199);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 20);
+            this.label9.Size = new System.Drawing.Size(89, 20);
             this.label9.TabIndex = 25;
-            this.label9.Text = "地址Address";
+            this.label9.Text = "测量点位：";
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(243, 84);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(270, 26);
+            this.textBox2.Size = new System.Drawing.Size(270, 74);
             this.textBox2.TabIndex = 22;
             // 
             // label2
@@ -210,16 +281,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(403, 223);
+            this.button1.Location = new System.Drawing.Point(403, 184);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 50);
             this.button1.TabIndex = 39;
             this.button1.Text = "保存 Save";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(243, 139);
+            this.textBox7.Location = new System.Drawing.Point(243, 133);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(270, 26);
             this.textBox7.TabIndex = 28;
@@ -227,7 +299,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 142);
+            this.label6.Location = new System.Drawing.Point(33, 136);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(204, 20);
             this.label6.TabIndex = 27;
@@ -273,6 +345,7 @@
             this.Controls.Add(this.splitContainer1);
             this.Name = "Configuration";
             this.Text = "Configuration";
+            this.Load += new System.EventHandler(this.Configuration_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -291,7 +364,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
@@ -309,7 +381,15 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btn_modify;
     }
 }

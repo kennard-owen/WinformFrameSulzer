@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Sulzer>
+<CheckStationName>Station1</CheckStationName>
+<CheckStationDesc>Des</CheckStationDesc>
+  
+<User Type="" >
+  <UserName>Admin</UserName>
+  <PassWord>000000</PassWord>
+</User>
+
+<CheckPoints>
+  <!--cehsi-->
+  <CheckPoint Type="" >
+    <Name>左1</Name>
+    <IOLinkIP>127.0.0.1</IOLinkIP>
+    <Port>2</Port>
+    <Des>还凑合</Des>
+  </CheckPoint>
+  <CheckPoint Type="" >
+    <Name>左2</Name>
+    <IOLinkIP>127.0.0.1</IOLinkIP>
+    <Port>2</Port>
+    <Des>还凑合</Des>
+  </CheckPoint>
+  <CheckPoint Type="" >
+    <Name>左3</Name>
+    <IOLinkIP>127.0.0.1</IOLinkIP>
+    <Port>2</Port>
+    <Des>还凑合</Des>
+  </CheckPoint>
+</CheckPoints>
+</Sulzer>

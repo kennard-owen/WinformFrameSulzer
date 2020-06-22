@@ -120,8 +120,8 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>16, 21</value>
   </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>173, 17</value>
+  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripStatusLabel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -257,6 +257,9 @@
         df6qKpktju0AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>178, 20</value>
+  </metadata>
   <data name="toolStripStatusLabel3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJUAAAANCAYAAACglyxhAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -370,88 +373,6 @@
         zCqQY1uHjfYfCUHgx67vxGPJEDdB8ttZ8GaI8lnthRlIpSypGrL2Vsllohh48RT8XkxmvYfMtMB1dBMk
         aBCfSqWSOuqoo09i/le4jndBpiGTkB8wB3KsDso6yZKj/8tnLdLp7JBMJiMnArfS8Bhfl77Gut0O6ZYR
         l2bGnsOxmpRiXn6/K5PKqH8ClQZvZxNFwUkAAAAASUVORK5CYII=
-</value>
-  </data>
-  <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>519, 17</value>
-  </metadata>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>331, 17</value>
-  </metadata>
-  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AACntEv/nawo/6CrKv+fqyr/n6sq/6CrKv+gqyr/oKsq/6CrKf+grCn/oKwo/5+sKP+frCn/n6sp/6Cq
-        Kv+hqyr/oKsq/6GrKv+hqyr/oKsq/6CrKv+gqyr/oKsq/6CrKv+gqyr/oKsq/6CrKv+fqyr/oKsp/6Cr
-        Kf+frCj/sr5f/56rKf+RoAD/kaAA/5GgAP+RoAD/kKAA/5CgAP+QoQD/kKEA/5GhAf+QoAH/j6EB/5Cg
-        Af+RoAD/kaEA/5CgAP+SoAD/kqAA/5KgAP+SoAD/kqAA/5KgAP+SoAD/kqAA/5KgAP+SoAD/kaAA/5Gg
-        AP+QoAD/j6EA/5GgAf+qtUP/oKoq/5KgAf+SoAD/kqAA/5KgAP+RoAD/kaAA/5GhAf+QngT/jZ4E/46e
-        Bf+OoAP/kqAB/5KfAv+RoQD/kaAA/5OgAP+ToAD/k6AA/5OgAP+ToAD/k6AA/5OgAP+UoAD/k6AA/5Kg
-        AP+SoAD/kqAA/5GgAP+QoQD/kaEA/621Qf+eqin/kaAB/5KhAP+SoQD/kqEA/5GhAP+RoAD/kJ4D/8jP
-        e//g4rD/4OKu/7S9VP+PoQH/kKIA/5GhAP+QoAD/j6EA/4+hAP+PoQD/j6EA/4+hAP+QoQD/kKEA/5Gh
-        AP+RoQD/kqEA/5KhAP+SoQD/kaEA/5CgAP+QoQD/rLVB/5+rKf+RoQH/kqEA/5KhAP+SoQD/kaEA/5Gh
-        AP+PngL/3N+x//7+/v/+/v3/wMZ6/5KgAP+PoQD/j6EA/5KgAP+RoQD/kaEA/5GhAP+SoAD/k6AA/5Kg
-        AP+SoAD/kqEA/5KhAP+SoQD/kqEA/5KhAP+RoQD/kaEA/5GhAP+stUL/n6sp/5GhAf+RoQD/kaEA/5Gh
-        AP+RoQD/kaEA/4+eAv/c37H//v7+//7+/v/Ax3r/k6AA/4+gAP+QoAD/kqAA/5CgAP+QoAD/kKAA/5Cg
-        AP+QoQD/j6AB/4+gAP+RoQD/kaAA/5GhAP+RoQD/kaEA/5GhAP+QoQD/kaEA/6y1Qv+fqyn/kaEB/5Gh
-        AP+RoQD/kaEA/5GhAP+QoAD/j54C/9zfsf/+/v7//v78/8DGe/+RoAH/j50I/42eCf+PnQj/j50I/4+d
-        CP+PnQj/j5wH/5GdA/+SngL/kqAA/5GhAP+RoAH/kaEA/5GhAP+RoQD/kaEA/5ChAP+QoAD/rLVC/5+r
-        Kf+RoQH/kaEA/5GhAP+RoQD/kaEA/5CgAP+PngL/3N+x//7+/v/+/vz/wMZ7/5CcD//f5K//5unH/+fo
-        xv/m6Mb/5ujG/+bpxv/l5sH/0NWR/6GtMP+PoAP/kqAB/5GgAP+RoQD/kaEA/5GhAP+RoQD/kaEA/5Gh
-        Af+stUL/n6sp/5GhAf+SoQD/kqEA/5KhAP+RoQD/kaEA/4+eAv/c37H//v7+//7+/P/Axnr/kJwT//X2
-        4P/9/v3//f79//z+/v/9/v7//f7+//3+/f/7/fz/+Pvp/7C8Vf+SngP/kaAA/5KhAP+SoQD/kqEA/5Gh
-        AP+RoQD/kaEB/6y1Qv+fqyn/kaEB/5GhAP+RoQD/kaEA/5GhAP+RoQD/j54C/9zfsf/+/v7//v78/8DH
-        ef+QnBH/9fbf//3+/f/9/v3//v39//39/f/9/v7//v78//z+/P/+/f3/9/nl/5mpJv+SoAH/kaEA/5Gh
-        AP+RoQD/kaEA/5GhAP+RoQH/rLVC/5+rKf+RoQH/kaEA/5GhAP+RoQD/kaEA/5CgAP+PngL/3N+x//7+
-        /v/+/vz/v8d4/5CcEf/19t///f79//3+/P/DzYX/uMBm/7m/af/FyoP/9/jp//3+/P/9/vz/xs2B/5Cf
-        Af+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAf+stUL/n6sp/5GhAf+SoQD/kqEA/5KhAP+RoQD/kaEA/4+e
-        Av/c37H//v7+//7+/f/Ax3j/j5wS//P24P/8/vr//P73/6SyOP+SnwL/kZ8C/46fA//Eyof/+/38//v+
-        /v/c4LL/j58D/5GhAP+RoQD/kqEA/5GhAP+QoQD/kaEB/6y1Qv+fqyn/kaEB/5GgAP+RoAD/kaAA/5Gg
-        AP+QoAD/j54C/9zgsv/+/v7//v78/7/Fff+QoAb/q7hA/623S/+uuEn/l6MR/46fAv+RoAH/kJ0F/8zR
-        kv/8/v3/+/78/9zftf+PnwL/kKAA/5GgAP+RoAD/kKAA/5CgAP+QoAD/rLVC/5+rKf+RoQH/kqEA/5Kh
-        AP+SoQD/kqEA/5KhAP+QngP/3OCy//7+/v/9/vz/2927/77FeP+/xXj/v8N8/7/Fev+/xXr/v8V6/77E
-        e//P05f/+/vz//39/f/8/vr/xsuA/5GgAP+SoQD/kqEA/5KhAP+SoQD/kaEA/5GhAP+stUL/n6sp/5Gh
-        Af+RoQD/kaEA/5GhAP+RoQD/kaEA/4+fAv/b4LH//P79//3+/P/9/f3//P39//3+/P/+/vz//v79//7+
-        /f/+/v3//v39//z9/v/+/P3//fz8//b34/+ZpSb/kaAA/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEA/6y1
-        Qv+fqyn/kaEB/5GhAP+RoQD/kaEA/5GhAP+RoQD/jp4D/9vfsv/9/fv//v3+//7+/v/8/f3//P7+//7+
-        /v///////v7+//7+/v/+/v7//P39//79+//09+P/q7VO/5OgAv+RoAD/kaEA/5GhAP+RoQD/kaEA/5Gh
-        AP+RoQH/rLVC/5+rKf+RoQH/kKAA/5CgAP+QoAD/kKAA/5CgAP+QnwH/xc1+/9vgs//b4LT/3OC0/9zg
-        tP/b4LT/3eC1/93gtf/d4LT/3OC0/9zgs//Z3a3/wcl8/5alI/+ToAH/k6AB/5GhAP+QoAD/kKAA/5Cg
-        AP+QoAD/kKEA/5GhAf+stUL/n6sp/5GhAf+QoAD/kKAA/5CgAP+QoAD/kKAA/5OgAf+RoAH/kaAB/5Cg
-        Av+QngL/kp0F/5ilHP+XpSD/l6Uh/5WeCv+OnwL/j6AC/5GeAv+RoAH/kqAB/5GgAP+RoAD/kaAA/5Cg
-        AP+QoAD/kKAA/5CgAP+QoQD/kaEB/6y1Qv+fqyn/kaEB/5GhAP+RoQD/kaEA/5GhAP+QoAH/k6AB/5Kg
-        Af+RoAH/k6AA/5GgAf+NnxD/9PTV//v77//7++//pLI3/5KhAP+RoAD/kKEA/5GfAv+RnwP/kaAB/5Gf
-        Av+RoAD/kaEA/5GhAP+RoQD/kaEA/5GhAP+RoQD/rLVC/5+rKf+RoQH/kaEA/5GhAP+RoQD/kaEA/5Gg
-        Af+SnwP/laYc/5ioKv+bpS3/mqYr/5amOP/19+j//P39//z++P+st1j/maUt/5mmLf+aqCr/mqYq/5qn
-        K/+apir/kaAF/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAP+stUL/n6sp/5GhAf+QoAD/kKAA/5Cg
-        AP+QoQD/kaAB/4+dA//e4af//f3z//7+8//9/vD//f7z//79+v/9/f3//f39//399f/+/fH//v7x//7+
-        8v/9/vL//f3x//395v+UpR3/kKAA/5CgAP+QoAD/kKAA/5CgAP+QoAD/kaEB/6y1Qv+fqyn/kaEB/5Gg
-        AP+RoAD/kaAA/5GgAP+RoAH/kJ8C/9zgr//8/f7//v39//3+/P/+/f3//f79//39/f/9/f3//v39//3+
-        /f/+/v7//v79//79/f/+/f7//f3y/5WkHv+TnwH/kaAA/5GgAP+RoAD/kaAA/5GhAP+RoQD/rLVC/5+r
-        Kf+RoQH/kqEA/5KhAP+SoQD/kqAB/5KgAv+OoAL/2d+q//v78//7/PL/+vzy//r78//9/Pv//v7+//79
-        /f/8+/X/+/vx//v88v/7/PH/+/vz//v88v/7/Ob/laca/5GfAf+SoQD/kqEA/5KhAP+SoQD/kaEA/5Gh
-        AP+stUL/n6sp/5GhAf+RoQD/kaEA/5GhAP+RoAD/kaAA/5OeAv+ToxD/laMW/5SjF/+Uohf/lJ4p//b2
-        4v/9/f3//f37/6a0Tf+Uohf/laIX/5aiF/+YoRj/lKIY/5eiF/+RoAT/kKAA/5GhAP+RoQD/kaEA/5Gh
-        AP+RoQD/kaEA/6y1Qv+fqyn/kaEB/5GhAP+RoQD/kaEA/5GhAP+RoQD/kKAB/4+gAf+PnwL/jqEB/5Cg
-        AP+PnBD/9fbb//39/v/+/f3/rbZR/5CgAv+PoAH/kaAB/5KfAf+OoQH/kaAB/5GgAf+QoQD/kaEA/5Gh
-        AP+RoQD/kaEA/5ChAP+RoQD/rLVC/5+rKf+RoQH/kaEA/5GhAP+RoQD/kaEA/5GhAP+QoAD/kaEA/5Gh
-        AP+RoQD/kqEA/46dBf/h5bX//v3+//7+/f/y9N7/09mf/9HYm//S153/0ted/9LYm//R2JX/laQR/5Gg
-        AP+RoQD/kaEA/5GhAP+RoQD/kKEA/5CgAP+stUL/n6sp/5GhAf+RoQD/kaEA/5GhAP+RoQD/kaEA/5Gh
-        AP+RoQD/kaEA/5OgAP+SoQD/kaEB/622Uf/8/fX//f3+//z+/f/+/f3//v39//79/f/9/v3//v78//39
-        8v+VpR7/kaAB/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEB/6y1Qv+fqyn/kaEB/5CgAP+QoAD/kKAA/5Cg
-        AP+QoAD/kKAA/5CgAP+QoAD/kKAA/5GgAP+RngH/j58F/7/Hb//5+e3//fz8//3++//9/vv//P78//z9
-        /f/+/f3//fzz/5WlHv+RoAD/kKAA/5CgAP+QoAD/kKAA/5CgAP+RoQH/rLVC/5+rKf+RoQH/kaEA/5Gh
-        AP+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAP+QoQD/kaIB/5GhAP+SnwH/j58D/5qqLP++xnP/yc+N/8rP
-        jv/Kz47/ys+O/8nQjP/K0In/k6UR/5KhAP+RoQD/kaEA/5GhAP+QoAD/kKEA/5GhAP+stUL/n6sp/5Gh
-        Af+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEA/5GhAP+RoAH/lJ8B/5Of
-        Af+QnwL/kZ8C/5OeAv+TngP/j58D/4+gAv+SoQD/kqAA/5GhAP+RoQD/kaEA/5GhAP+RoQD/kaEA/6y1
-        Qv+fqyn/kqAB/5GgAP+RoAD/kaAA/5GgAP+RoAD/kaAA/5GgAP+RoAD/kaAA/5GgAf+RnwH/kp8C/5Cg
-        AP+PoAD/kKAB/5CgAf+SoAH/kaAB/5GgAf+TnwH/kqAB/5ChAP+RoQD/kaAA/5GgAP+RoAD/kKEA/5Ch
-        AP+QoAH/q7RE/7bBZP+ruEj/q7dK/6u3Sv+rt0r/q7dK/6u3Sv+rt0r/q7dK/6u3Sv+ruEn/q7hJ/6u3
-        Sv+rt0r/rLdK/623Sv+tuEn/rbhJ/6y4Sf+suEn/rbhJ/6y4Sf+st0n/rbdK/6y3Sv+rt0r/q7dK/6u3
-        Sv+st0r/rbdK/6y3Sv/Ax3n/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

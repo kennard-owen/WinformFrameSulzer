@@ -297,6 +297,7 @@
             this.button2.TabIndex = 40;
             this.button2.Text = "开始Begin";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 
@@ -323,6 +324,7 @@
             this.Controls.Add(this.groupBox3);
             this.Name = "MeasureForm";
             this.Text = "MeasureForm";
+            this.Load += new System.EventHandler(this.MeasureForm_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);

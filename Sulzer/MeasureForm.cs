@@ -13,5 +13,13 @@ namespace Sulzer {
         public MeasureForm() {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e) {
+            MqttClientOperation.Run();
+        }
+
+        private void MeasureForm_Load(object sender, EventArgs e) {
+            //config.config.GetCheckPointList();
+        }
     }
 }

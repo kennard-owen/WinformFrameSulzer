@@ -53,10 +53,6 @@
       <Project>{26f25ce5-5503-4906-b45a-5a5d1fb10a39}</Project>
       <Name>Sensors</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UCC400\Sulzer.csproj">
-      <Project>{4097da15-5c3d-4bfb-8fb8-f8a204c88371}</Project>
-      <Name>Sulzer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
